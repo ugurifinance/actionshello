@@ -4,7 +4,7 @@ on:
     types: [opened]
 jobs: 
   startup:
-    name: Runnstartup script
+    name: Run startup script
     runs-on: ubuntu-latest
     steps:
       - run: echo "hello world"
